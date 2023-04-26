@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+</head>
+
+<body>
+    <header>
+       <nav class="navbar">
+        <div class="score-section">
+         <div class="nav-highscore"><a href="">your score</a></div>
+        <span id="score"></span>
+        </div>
+       <div class="time-section">
+        <div class="nav-time-left">Time left</div>
+        <span id="time-left"></span>
+       </div>
+       
+       </nav>
+</header>
+    <main class="main-section " id="main-section-id">
+        <h1 class="main-heading">coding quiz challenge</h1>
+        <div class="main-description">This is description for the quiz app. you can play quiz here you can do it .</div>
+        <button class="main-button" id="start-button">Start quiz</button>
+    </main>
+    <div id="quiz-section" class='quiz hidden'>
+        <div id="question"></div>
+        <button class="answer-section"></button>
+        <button class="answer-section"></button>
+        <button class="answer-section"></button>
+        <button class="answer-section"></button>
+        <div id="status-id"></div>
+    </div>
+<div id="last-page" class="main-section hidden">
+    <h1 class="main-heading">All done</h1>
+    <div id="score-desc" class="main-description"></div>
+    <label for="text" >Name:</label>
+    <input type="text" name="text" id="text-box" >
+    <button type="submit" id="submit-button" class="main-button">Submit</button>
+</div>
+
+<div class="main-section hidden" id="highscore-page">
+     <h1 class="main-heading">High scores</h1>
+     <div class="main-description" id="high-scores">sdfsdfsdf</div>
+     <button class="main-button" id="restart-button">Restart quiz</button>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
